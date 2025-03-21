@@ -4,6 +4,8 @@ import Typewriter from "./Typewriter";
 import Image from "next/image";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithubSquare } from "react-icons/fa";
+import { IoMdCamera } from "react-icons/io";
+import Link from 'next/link';
 
 const Main = () => {
     const [theme, setTheme] = useState('');
@@ -17,14 +19,14 @@ const Main = () => {
         return null; // `theme` is null in the first render
     }
 
-    const resumeLink = "https://drive.google.com/file/d/15Xm5d1Qzm0Vqqc_8LoB3GUYGKfJZf10W/view?usp=sharing";
+    const resumeLink = "https://drive.google.com/file/d/1cIoVZyTKobMiYLllEYkcVO6ajqW8XPJO/view?usp=sharing";
     const linkedinLink = "https://www.linkedin.com/in/ethantam5133/";
     const githubLink = "https://github.com/ethan-tam33";
     
     return (
         <section id="home" className="animate-fadeIn animation-delay-2 selection:bg-blue-100 dark:selection:bg-blue-500">
-            <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-28 md:py-28 md:flex-row md:space-x-4 md:text-left">
-                <div className="md:mt-2 md:w-1/2 animate-fadeIn animation-delay-4 ">
+            <div className="flex flex-col text-center items-center justify-center my-6 py-10 sm:py-20 md:py-20 md:flex-row md:space-x-4 md:text-left">
+                <div className="md:mt-0 md:w-1/2 animate-fadeIn animation-delay-4">
                     <Image
                         src="/headshot.png"
                         alt=""
@@ -34,22 +36,41 @@ const Main = () => {
                     />
                 </div>
 
-                <div className="md:mt-2 md:w-3/5 animate-fadeIn animation-delay-4">
-                    <h1 className="font-sans text-4xl font-bold mt-6 md:mt-0 md:text-7xl"> 
+                <div className="md:mt-0 md:w-3/5 animate-fadeIn animation-delay-4">
+                    <h1 className="font-sans text-4xl font-bold mt-4 md:mt-0 md:text-7xl"> 
                         <Typewriter text={"Hi, I'm Ethan."} delay={100}></Typewriter>
                     </h1>
-                    <h2 className="font-mono mt-3">
+                    <br></br>
+                    <h2 className="font-mono mt-2">
                         <div>
-                            I'm a student, software engineer, and baker. 
+                            I'm a student, software engineer, and researcher. 
                         </div>
+
+                        <br></br>
+
+                        <div>
+                            I'm currently interested in full-stack + backend development, machine learning in the biology domain, and equitable CS education.
+                        </div>
+
+                        <br></br>
+
+                        <div>
+                            This summer I'll be interning @ Uber as a SWE Intern and teaching an Intro to CS course @ SSF.
+                        </div>
+
+                        <br></br>
 
                         <div>
                             You can find my&nbsp;
                             <a className="font-semibold hover:bg-blue-100 hover:dark:bg-blue-500 transition ease-in-out duration-300 rounded-full" href={resumeLink} target="_blank">resume here</a>
                             .
                         </div>
+
+                        <br></br>
+
+                        <div>email: ethantam [at] berkeley [dot] edu</div>
                         <div>&nbsp;</div>
-                        <div className="flex items-center space-x-5">
+                        <div className="flex items-center space-x-8">
                             <a href={linkedinLink} target="_blank">
                                 <CiLinkedin className="text-4xl" />
                             </a>
