@@ -24,7 +24,7 @@ const Main = () => {
     const githubLink = "https://github.com/ethan-tam33";
     
     return (
-        <section id="home" className="animate-fadeIn animation-delay-2 selection:bg-blue-100 dark:selection:bg-blue-500">
+        <section id="home" className="animate-fadeIn animation-delay-2 selection:bg-blue-100 dark:selection:bg-blue-500 pt-12">
             <div className="flex flex-col text-center items-center justify-center my-6 py-10 sm:py-20 md:py-20 md:flex-row md:space-x-4 md:text-left">
                 <div className="md:mt-0 md:w-1/2 animate-fadeIn animation-delay-4">
                     <Image
@@ -32,7 +32,7 @@ const Main = () => {
                         alt=""
                         width={325}
                         height={325}
-                        className="rounded-full transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-gray-400"
+                        className="rounded-full transition-shadow duration-300 hover:shadow-lg hover:shadow-gray-400"
                     />
                 </div>
 
@@ -43,7 +43,7 @@ const Main = () => {
                     <br></br>
                     <h2 className="font-mono mt-2">
                         <div>
-                            I'm a student, software engineer, and researcher. 
+                            I'm a third-year CS undergraduate at UC Berkeley, software engineer, and researcher. 
                         </div>
 
                         <br></br>

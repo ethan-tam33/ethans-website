@@ -4,11 +4,7 @@ import { useTheme } from 'next-themes';
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
 
 const ThemeToggle = () => {
-    // const { systemTheme, theme, setTheme } = useTheme();
-    // const currentTheme = theme === "system" ? systemTheme : theme;
     const { setTheme, resolvedTheme } = useTheme();
-    // console.log('systemTheme: ', systemTheme);
-    // console.log('theme: ', theme);
 
     return (
         <div className="mt-4 flex justify-end">
