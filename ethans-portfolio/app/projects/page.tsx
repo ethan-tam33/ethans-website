@@ -27,7 +27,6 @@ export default function Projects() {
                         </div>
                     </div>
 
-
                     {/* Hackathon Projects Section */}
                     <div className="my-6">
                         <h2 className="font-mono text-2xl font-semibold">Hackathon Projects</h2>
@@ -56,7 +55,7 @@ export default function Projects() {
                             <Project
                                 title="Self-Supervised Deep Learning-Based Cell Tracking in C. elegans"
                                 description="Designed and developed a self-supervised deep learning-based pipeline for cell tracking in microscopy sequences of C. elegans. Utilized a U-Net convolutional neural network to identify cell coordinates in volumetric data with 81% accuracy and applied a contrastive learning framework with a graph neural network to accurately match cells across sequential time frames."
-                                githubLink="https://docs.google.com/presentation/d/11HUk2ZEcIQ-Jioc_yPLQ-GVPPrATfublWZOm_oO9g5s/edit?usp=sharing"
+                                docLink="https://docs.google.com/presentation/d/11HUk2ZEcIQ-Jioc_yPLQ-GVPPrATfublWZOm_oO9g5s/edit?usp=sharing"
                                 award="Won Top 4 CS Research Presentation Award at the 2023 NDiSTEM Conference!"
                                 techStack="PyTorch, Python, Numpy, Pandas, Scikit-Learn, Matplotlib"
                             />
