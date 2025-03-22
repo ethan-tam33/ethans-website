@@ -7,6 +7,7 @@ export default function Navbar() {
 
             <Tab href="/" text="Home"></Tab>
             <Tab href="/projects" text="Projects"></Tab>
+            <Tab href="/classes" text="Classes"></Tab>
             <ThemeToggle></ThemeToggle>
         </div>
     );
