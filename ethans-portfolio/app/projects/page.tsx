@@ -53,6 +53,21 @@ export default function Projects() {
                     <div className="my-6">
                         <h2 className="font-mono text-2xl font-semibold">Class Projects</h2>
                         <div className="mt-4">
+
+                            <Project
+                                title="CS 180: Face Morphing"
+                                description="Developed a face morphing algorithm using Delaunay triangulation and affine transformations to create a mid-way face by warping and cross-dissolving images of Iñaki Godoy and Mackenyu Maeda (Luffy and Zoro of the amazing live-action One Piece). Generated a 45-frame GIF with dynamic morphing, adjusting the weights of each image across frames to create a smooth transition."
+                                docLink="https://ethan-tam-cs180.notion.site/Project-3-Face-Morphing-118a85eeb3ab8020bfe6eb5a8cea511a?pvs=4"
+                                techStack="Python, Numpy, Scikit-Image, OpenCV, Matplotlib"
+                            />
+
+                            <Project
+                                title="CS 180: Fun with Filters and Frequencies"
+                                description="Implemented edge detection and noise reduction techniques using gradient magnitude, DoG filters, and finite difference operators. Developed hybrid images by applying Fourier transforms and multiresolution blending for enhanced image processing."
+                                docLink="https://ethan-tam-cs180.notion.site/Project-2-Fun-with-Filters-and-Frequencies-10aa85eeb3ab806c9916c48a27fcea96?pvs=4"
+                                techStack="Python, Numpy, Scikit-Image, OpenCV, Matplotlib"
+                            />
+
                             <Project
                                 title="CS 180: Colorizing the Prokudin-Gorskii Photo Collection"
                                 description="Developed a solution for colorizing the Prokudin-Gorskii photo collection by implementing single-scale and multiscale pyramid search algorithms for image alignment. Enhanced alignment accuracy using edge detection via Hessian filters and optimized image cropping with an automated algorithm to remove borders and artifacts."
@@ -60,12 +75,7 @@ export default function Projects() {
                                 techStack="Python, Numpy, Scikit-Image"
                             />
 
-                            <Project
-                                title="CS 180: Fun with Filters and Frequencies"
-                                description="Implemented edge detection and noise reduction techniques using gradient magnitude, DoG filters, and finite difference operators. Developed hybrid images by applying Fourier transforms and multiresolution blending for enhanced image processing."
-                                docLink="https://ethan-tam-cs180.notion.site/Project-2-Fun-with-Filters-and-Frequencies-10aa85eeb3ab806c9916c48a27fcea96?pvs=4"
-                                techStack="Python, Numpy, Scikit-Image, Matplotlib, OpenCV"
-                            />
+                            
                             
                         </div>
                     </div>
