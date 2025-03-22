@@ -1,5 +1,4 @@
 import { FaGithubSquare } from "react-icons/fa";
-import { HiDocumentText } from "react-icons/hi";
 import { CgFileDocument } from "react-icons/cg";
 
 interface ProjectType {
