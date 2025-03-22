@@ -55,7 +55,7 @@ export default function Projects() {
                         <div className="mt-4">
 
                             <Project
-                                title="Diffusion-Based Image Denoising with UNet"
+                                title="CS 180: Diffusion-Based Image Denoising with UNet"
                                 description="Developed and trained a UNet-based denoising model on the MNIST dataset, implementing time-conditioned diffusion models to iteratively improve image denoising. Enhanced the model with class-conditioning and classifier-free guidance to generate high-quality images, exploring advanced techniques for improved performance."
                                 docLink="https://ethan-tam-cs180.notion.site/Project-5-Fun-With-Diffusion-Models-13ca85eeb3ab80c99d3aec85b03b7303?pvs=4"
                                 techStack="PyTorch, Python, Numpy, Scikit-Image, OpenCV, Matplotlib"
