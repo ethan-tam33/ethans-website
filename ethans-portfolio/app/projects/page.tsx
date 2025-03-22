@@ -62,6 +62,13 @@ export default function Projects() {
                             />
 
                             <Project
+                                title="CS 180: [Auto]Stitching Photo Mosaics"
+                                description="Developed an image warping and mosaicing system by implementing homography recovery, image rectification, and projective warping techniques. Successfully created seamless mosaics by blending images using weighted averaging and advanced blending techniques like Laplacian pyramids."
+                                docLink="https://ethan-tam-cs180.notion.site/Project-4-Auto-Stitching-Photo-Mosaics-126a85eeb3ab802e9837e61eea3bcdf4?pvs=4"
+                                techStack="Python, Numpy, Scikit-Image, OpenCV, Matplotlib"
+                            />
+
+                            <Project
                                 title="CS 180: Fun with Filters and Frequencies"
                                 description="Implemented edge detection and noise reduction techniques using gradient magnitude, DoG filters, and finite difference operators. Developed hybrid images by applying Fourier transforms and multiresolution blending for enhanced image processing."
                                 docLink="https://ethan-tam-cs180.notion.site/Project-2-Fun-with-Filters-and-Frequencies-10aa85eeb3ab806c9916c48a27fcea96?pvs=4"
