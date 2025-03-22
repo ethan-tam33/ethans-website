@@ -1,24 +1,9 @@
-"use client"
-import React, { useState, useEffect } from "react";
 import Typewriter from "./Typewriter";
 import Image from "next/image";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithubSquare } from "react-icons/fa";
-import { IoMdCamera } from "react-icons/io";
-import Link from 'next/link';
 
 const Main = () => {
-    const [theme, setTheme] = useState('');
-
-    useEffect(() => {
-      let theme = localStorage.getItem('theme') || 'light';
-      setTheme(theme);
-    }, []);
-
-    if (!theme) {
-        return null; // `theme` is null in the first render
-    }
-
     const resumeLink = "https://drive.google.com/file/d/1cIoVZyTKobMiYLllEYkcVO6ajqW8XPJO/view?usp=sharing";
     const linkedinLink = "https://www.linkedin.com/in/ethantam5133/";
     const githubLink = "https://github.com/ethan-tam33";

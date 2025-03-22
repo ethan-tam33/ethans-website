@@ -1,12 +1,8 @@
-import Main from "../components/Main";
-import Navbar from "@/components/Navbar";
+import Main from "@/components/Main";
+import Layout from "@/components/Layout";
 
 export default function Home() {
-
   return (
-    <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ">
-      <Navbar></Navbar>
-      <Main></Main>
-    </main>
+    <Main></Main>
   );
 }
