@@ -13,6 +13,7 @@ export default function Classes() {
                             <li>CS 170: Efficient Algorithms and Intractable Problems</li>
                             <li>CS 182: Designing, Visualizing and Understanding Deep Neural Networks</li>
                             <li>CS 168: Introduction to the Internet: Architecture and Protocols</li>
+                            <li>CMPBIO 198BC: Berkeley Connect in Computational Biology (Seminar)</li>
                         </ul>
 
                         <br></br>
@@ -30,6 +31,7 @@ export default function Classes() {
                         <ul className="list-disc pl-5 whitespace-nowrap">
                             <li>CS 61C: Great Ideas in Computer Architecture</li>
                             <li>EECS 127: Optimization Models in Engineering</li>
+                            <li>DATA 104: Human Contexts and Ethics of Data</li>
                         </ul>
 
                         <br></br>
