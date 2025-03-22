@@ -32,9 +32,15 @@ export default function Projects() {
                                 description="Developed an AI-powered web application for visualizing and diagnosing congenital heart disease (CHD) using 3D representations of CMRI scans, multi-classification models, and custom heart segmentation. Optimized the model for accuracy, real-time querying with VespaAI, and integrated a user-friendly AI voice chat for doctor-patient interactions."
                                 githubLink="https://devpost.com/software/hearti"
                                 award="Won Most Impactful Grand Prize Award!"
-                                techStack="React.js, Javascript, Firebase, HTML, TailwindCSS, Next.js"
+                                techStack="React.js, PyTorch, FastAPI, Python, Typescript, VespaAI, HTML, TailwindCSS, Next.js"
                             />
-                            {/* Add more hackathon projects here */}
+                            <Project
+                                title="HackMIT 2024: Mindscape"
+                                description="Created a web app to render 3D interactive visualizations of brain MRI scans, enabling precise tumor localization. Developed a NeRF-generated data pipeline to transform 2D slices into real-time, instant volumetric data."
+                                githubLink="https://github.com/arjun-banerjee/Mindscape"
+                                award="Won Best Healthcare Hack Award!"
+                                techStack="React.js, PyTorch, Python, Typescript, HTML, TailwindCSS, Next.js"
+                            />
                         </div>
                     </div>
 
