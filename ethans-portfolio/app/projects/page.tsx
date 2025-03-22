@@ -21,6 +21,23 @@ export default function Projects() {
                         </div>
                     </div>
 
+
+                    {/* Hackathon Projects Section */}
+                    <div className="my-6">
+                        <h2 className="font-mono text-2xl font-semibold">Hackathon Projects</h2>
+                        <div className="mt-4">
+                            {/* Example of a hackathon project */}
+                            <Project
+                                title="TreeHacks 2025: Hearti"
+                                description="Developed an AI-powered web application for visualizing and diagnosing congenital heart disease (CHD) using 3D representations of CMRI scans, multi-classification models, and custom heart segmentation. Optimized the model for accuracy, real-time querying with VespaAI, and integrated a user-friendly AI voice chat for doctor-patient interactions."
+                                githubLink="https://devpost.com/software/hearti"
+                                award="Won Most Impactful Grand Prize Award!"
+                                techStack="React.js, Javascript, Firebase, HTML, TailwindCSS, Next.js"
+                            />
+                            {/* Add more hackathon projects here */}
+                        </div>
+                    </div>
+
                     {/* Class Projects Section */}
                     <div className="my-6">
                         <h2 className="font-mono text-2xl font-semibold">Class Projects</h2>
@@ -39,22 +56,6 @@ export default function Projects() {
                                 techStack="Python, Numpy, Scikit-Image, Matplotlib, OpenCV"
                             />
                             
-                        </div>
-                    </div>
-
-                    {/* Hackathon Projects Section */}
-                    <div className="my-6">
-                        <h2 className="font-mono text-2xl font-semibold">Hackathon Projects</h2>
-                        <div className="mt-4">
-                            {/* Example of a hackathon project */}
-                            <div className="border p-4 mb-4 rounded-md">
-                                <h3 className="text-xl font-semibold flex items-center">
-                                    TreeHacks 2025
-                                    <a href="#" className="text-blue-500 text-sm ml-2">Github</a>
-                                </h3>
-                                <p className="text-sm text-gray-600">Developed a real-time collaboration tool for hackathon teams, enabling seamless communication and project tracking.</p>
-                            </div>
-                            {/* Add more hackathon projects here */}
                         </div>
                     </div>
                 </div>
