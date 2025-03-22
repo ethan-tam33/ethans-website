@@ -13,6 +13,12 @@ export default function Projects() {
                         <h2 className="font-mono text-2xl font-semibold">Personal Projects</h2>
                         <div className="mt-4">
                             <Project
+                                title="ACE NY Energy Project Web App"
+                                description="Building a full-stack web app for a non-profit to visualize real-time data of all proposed and ongoing energy projects on Google Maps for the state of New York."
+                                githubLink="https://github.com/calblueprint/ace-ny"
+                                techStack="React.js, Google Maps API, Typescript, Supabase, HTML, CSS, Next.js"
+                            />
+                            <Project
                                 title="Basic Needs Center Food Pantry Web App"
                                 description="Lead a team to develop new features for and maintain web application for Berkeley’s high-traffic food pantry serving thousands of students and staff weekly."
                                 githubLink="https://github.com/CalNourish/pantry-webapp"
@@ -26,7 +32,6 @@ export default function Projects() {
                     <div className="my-6">
                         <h2 className="font-mono text-2xl font-semibold">Hackathon Projects</h2>
                         <div className="mt-4">
-                            {/* Example of a hackathon project */}
                             <Project
                                 title="TreeHacks 2025: Hearti"
                                 description="Developed an AI-powered web application for visualizing and diagnosing congenital heart disease (CHD) using 3D representations of CMRI scans, multi-classification models, and custom heart segmentation. Optimized the model for accuracy, real-time querying with VespaAI, and integrated a user-friendly AI voice chat for doctor-patient interactions."
