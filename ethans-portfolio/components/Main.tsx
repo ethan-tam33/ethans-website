@@ -34,7 +34,7 @@ const Main = () => {
                         <br></br>
 
                         <div>
-                            I'm currently interested in full-stack + backend development, machine learning in the biology domain, and equitable CS education.
+                            I'm currently interested in full-stack + backend development, machine learning in the biology domain, and equitable CS education. Outside of school, I'm a baker, a hackathon enthusiast, and a One Piece fan.
                         </div>
 
                         <br></br>
