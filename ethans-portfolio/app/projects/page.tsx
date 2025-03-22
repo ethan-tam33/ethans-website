@@ -55,6 +55,13 @@ export default function Projects() {
                         <div className="mt-4">
 
                             <Project
+                                title="Diffusion-Based Image Denoising with UNet"
+                                description="Developed and trained a UNet-based denoising model on the MNIST dataset, implementing time-conditioned diffusion models to iteratively improve image denoising. Enhanced the model with class-conditioning and classifier-free guidance to generate high-quality images, exploring advanced techniques for improved performance."
+                                docLink="https://ethan-tam-cs180.notion.site/Project-5-Fun-With-Diffusion-Models-13ca85eeb3ab80c99d3aec85b03b7303?pvs=4"
+                                techStack="PyTorch, Python, Numpy, Scikit-Image, OpenCV, Matplotlib"
+                            />
+
+                            <Project
                                 title="CS 180: Face Morphing"
                                 description="Developed a face morphing algorithm using Delaunay triangulation and affine transformations to create a mid-way face by warping and cross-dissolving images of Iñaki Godoy and Mackenyu Maeda (Luffy and Zoro of the amazing live-action One Piece). Generated a 45-frame GIF with dynamic morphing, adjusting the weights of each image across frames to create a smooth transition."
                                 docLink="https://ethan-tam-cs180.notion.site/Project-3-Face-Morphing-118a85eeb3ab8020bfe6eb5a8cea511a?pvs=4"
