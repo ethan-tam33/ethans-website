@@ -6,6 +6,7 @@ import { ThemeProvider } from "next-themes";
 import Head from "./head";
 import Layout from "@/components/Layout";
 import React, { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +30,10 @@ export default function RootLayout({
       <Head />
       <ThemeProvider enableSystem={true} attribute="class">
         <body className={inter.className}>
-          <Layout>{children}</Layout>  
+          <Layout>
+            {children}
+            <Analytics />
+          </Layout>  
         </body>
       </ThemeProvider>
     </html>
