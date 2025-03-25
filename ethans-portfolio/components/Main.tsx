@@ -45,13 +45,13 @@ const Main = () => {
 
                         <br></br>
 
-                        <div>
+                        {/* <div>
                             You can find my&nbsp;
                             <a className="font-semibold hover:bg-blue-100 hover:dark:bg-blue-500 transition ease-in-out duration-300 rounded-full" href={resumeLink} target="_blank">resume here</a>
                             .
-                        </div>
+                        </div> */}
 
-                        <br></br>
+                        {/* <br></br> */}
 
                         <div>email: ethantam [at] berkeley [dot] edu</div>
                         <div>&nbsp;</div>
