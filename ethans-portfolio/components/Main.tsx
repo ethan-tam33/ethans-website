@@ -4,7 +4,6 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaGithubSquare } from "react-icons/fa";
 
 const Main = () => {
-    const resumeLink = "https://drive.google.com/file/d/1cIoVZyTKobMiYLllEYkcVO6ajqW8XPJO/view?usp=sharing";
     const linkedinLink = "https://www.linkedin.com/in/ethantam5133/";
     const githubLink = "https://github.com/ethan-tam33";
     
@@ -44,14 +43,6 @@ const Main = () => {
                         </div>
 
                         <br></br>
-
-                        {/* <div>
-                            You can find my&nbsp;
-                            <a className="font-semibold hover:bg-blue-100 hover:dark:bg-blue-500 transition ease-in-out duration-300 rounded-full" href={resumeLink} target="_blank">resume here</a>
-                            .
-                        </div> */}
-
-                        {/* <br></br> */}
 
                         <div>email: ethantam [at] berkeley [dot] edu</div>
                         <div>&nbsp;</div>
