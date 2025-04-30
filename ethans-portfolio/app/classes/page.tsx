@@ -8,6 +8,15 @@ export default function Classes() {
                     </h1>
 
                     <div className="my-6 font-mono">
+                        <span className="font-bold">Fall 2025</span>
+                        <ul className="list-disc pl-5">
+                            <li>CS 161: Computer Security</li>
+                            <li>CS 162: Operating Systems and System Programming </li>
+                            <li>UGBA 135: Personal Finance Management</li>
+                        </ul>
+
+                        <br></br>
+
                         <span className="font-bold">Spring 2025</span>
                         <ul className="list-disc pl-5">
                             <li>CS 170: Efficient Algorithms and Intractable Problems</li>
