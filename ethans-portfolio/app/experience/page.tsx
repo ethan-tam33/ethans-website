@@ -10,28 +10,54 @@ export default function Experience() {
                     <div className="my-6 font-mono">
                         <span className="font-bold">Uber</span>
                         <br></br>
-                        Software Engineering Intern, Summer 2025
+                        <ul className="list-disc pl-5">
+                            <li>Software Engineering Intern, Summer 2025</li>
+                        </ul>
 
-                        <br></br>
                         <br></br>
 
                         <span className="font-bold">Lawrence Berkeley National Lab</span>
                         <br></br>
-                        Machine Learning Undergraduate Research Intern, Fall 2024 + Spring 2025
+                        <ul className="list-disc pl-5">
+                            <li>Machine Learning Research Intern, Fall 2024 + Spring 2025</li>
+                            <li>Generative AI & Protein Engineering</li>
+                        </ul>
 
                         <br></br>
+
+                        <span className="font-bold">Blueprint @ UC Berkeley</span>
+                        <br></br>
+                        <ul className="list-disc pl-5">
+                            <li>Software Engineer, Fall 2024 - Present</li>
+                            <li>Full-Stack Development for Non-Profits</li>
+                        </ul>
+
+                        <br></br>
+
+                        <span className="font-bold">Basic Needs Center @ UC Berkeley</span>
+                        <br></br>
+                        <ul className="list-disc pl-5">
+                            <li>Software Engineer + Tech Lead, Fall 2022 - Present</li>
+                            <li>Full-Stack Development for Non-Profits</li>
+                        </ul>
+
                         <br></br>
 
                         <span className="font-bold">Uber</span>
                         <br></br>
-                        UberSTAR Software Engineering Intern, Summer 2024
+                        <ul className="list-disc pl-5">
+                            <li>Software Engineering Intern, Summer 2024</li>
+                            <li>Full-Stack Development for Rider Foundations</li>
+                        </ul>
 
-                        <br></br>
                         <br></br>
 
                         <span className="font-bold">Janelia Research Campus</span>
                         <br></br>
-                        Machine Learning Undergraduate Research Intern, Summer 2023
+                        <ul className="list-disc pl-5">
+                            <li>Machine Learning Research Intern, Summer 2023</li>
+                            <li>Computer Vision, Deep Learning, & Microscopy Data</li>
+                        </ul>
                     </div>
                 </div>
             </div>

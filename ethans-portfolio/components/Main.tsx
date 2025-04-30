@@ -45,7 +45,9 @@ const Main = () => {
                         <br></br>
 
                         <div>email: ethantam [at] berkeley [dot] edu</div>
-                        <div>&nbsp;</div>
+
+                        <br></br>
+
                         <div className="flex items-center space-x-8">
                             <a href={linkedinLink} target="_blank">
                                 <CiLinkedin className="text-4xl" />
