@@ -14,7 +14,7 @@ export default function Projects() {
                         <div className="mt-4">
                             <Project
                                 title="ACE NY Energy Project Web App"
-                                description="Building a full-stack web app for a non-profit to visualize real-time data of all proposed and ongoing energy projects on Google Maps for the state of New York."
+                                description="Built a full-stack web app to visualize data of all proposed and ongoing energy projects on Google Maps for the state of New York."
                                 githubLink="https://github.com/calblueprint/ace-ny"
                                 techStack="React.js, Google Maps API, Typescript, Supabase, HTML, CSS, Next.js"
                             />

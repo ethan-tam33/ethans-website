@@ -27,7 +27,7 @@ const Main = () => {
                     <br></br>
                     <h2 className="font-mono mt-2">
                         <div>
-                            I'm a third-year CS undergraduate at UC Berkeley, software engineer, and researcher. 
+                            I'm a fourth-year CS undergraduate at UC Berkeley, software engineer, and researcher. 
                         </div>
 
                         <br></br>
