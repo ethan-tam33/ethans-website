@@ -12,6 +12,7 @@ export default function Experience() {
                         <br></br>
                         <ul className="list-disc pl-5">
                             <li>Software Engineering Intern, Summer 2025</li>
+                            <li>Agentic AI for Fulfillment Indexing</li>
                         </ul>
 
                         <br></br>
