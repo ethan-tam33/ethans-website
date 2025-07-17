@@ -8,8 +8,8 @@ const Main = () => {
     const githubLink = "https://github.com/ethan-tam33";
     
     return (
-        <section id="home" className="animate-fadeIn animation-delay-2 selection:bg-blue-100 dark:selection:bg-blue-500 pt-12">
-            <div className="flex flex-col text-center items-center justify-center my-6 py-10 sm:py-20 md:py-20 md:flex-row md:space-x-4 md:text-left">
+        <section id="home" className="min-h-screen flex flex-col items-center justify-center animate-fadeIn animation-delay-2 selection:bg-blue-100 dark:selection:bg-blue-500">
+            <div className="flex flex-col text-center items-center justify-center md:flex-row md:space-x-4 md:text-left">
                 <div className="md:mt-0 md:w-1/2 animate-fadeIn animation-delay-4">
                     <Image
                         src="/headshot.png"
