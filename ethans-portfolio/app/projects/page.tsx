@@ -45,6 +45,12 @@ export default function Projects() {
                                 award="Won Best Healthcare Hack Award!"
                                 techStack="React.js, PyTorch, Python, Typescript, HTML, TailwindCSS, Next.js"
                             />
+                            <Project
+                                title="UC Berkeley AI 2025: AI-SL"
+                                description="Created a web app + Chrome extension to dynamically generate full sentences of American Sign Language expression via a 2D character from text input using CV and vector search."
+                                githubLink="https://github.com/deenasun/ai-sl"
+                                techStack="Mediapipe, OpenCV, Hugging Face, Supabase, Python, Numpy, React.js, Typescript, TailwindCSS"
+                            />
                         </div>
                     </div>
 
