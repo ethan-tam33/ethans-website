@@ -13,8 +13,8 @@ export default function Projects() {
                         <h2 className="font-mono text-2xl font-semibold">Personal Projects</h2>
                         <div className="mt-4">
                             <Project
-                                title="ACE NY Energy Project Web App"
-                                description="Built a full-stack web app to visualize data of all proposed and ongoing energy projects on Google Maps for the state of New York."
+                                title="ACE NY Renewable Energy Web App"
+                                description="Built a full-stack web app to visualize data of all proposed and ongoing renewable energy projects on Google Maps for the state of New York."
                                 githubLink="https://github.com/calblueprint/ace-ny"
                                 techStack="React.js, Google Maps API, Typescript, Supabase, HTML, CSS, Next.js"
                             />
