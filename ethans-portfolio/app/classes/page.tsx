@@ -12,7 +12,7 @@ export default function Classes() {
                         <ul className="list-disc pl-5">
                             <li>CS 161: Computer Security</li>
                             <li>CS 162: Operating Systems and System Programming</li>
-                            <li>UGBA 135: Personal Finance Management</li>
+                            <li>CS 194-196: Agentic AI</li>
                         </ul>
 
                         <br></br>
