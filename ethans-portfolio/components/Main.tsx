@@ -38,12 +38,6 @@ const Main = () => {
 
                         <br></br>
 
-                        <div>
-                            This summer I'll be interning @ Uber as a SWE Intern and teaching an Intro to CS course @ SSF.
-                        </div>
-
-                        <br></br>
-
                         <div>email: ethantam [at] berkeley [dot] edu</div>
 
                         <br></br>
