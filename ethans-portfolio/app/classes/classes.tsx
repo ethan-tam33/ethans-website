@@ -1,5 +1,12 @@
 export const classes = [
   {
+    semester: "Spring 2026",
+    courses: [
+      "CS 176: Algorithms for Computational Biology",
+      "CS 186: Introduction to Database Systems",
+    ],
+  },
+  {
     semester: "Fall 2025",
     courses: [
       "CS 161: Computer Security",
