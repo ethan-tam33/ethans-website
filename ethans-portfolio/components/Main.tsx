@@ -12,7 +12,7 @@ const Main = () => {
             <div className="flex flex-col text-center items-center justify-center md:flex-row md:space-x-4 md:text-left">
                 <div className="md:mt-0 md:w-1/2 animate-fadeIn animation-delay-4">
                     <Image
-                        src="/headshot.png"
+                        src="/headshot2.jpeg"
                         alt=""
                         width={325}
                         height={325}
